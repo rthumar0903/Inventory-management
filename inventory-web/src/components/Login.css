@@ -1,0 +1,40 @@
+.login-container {
+    background-image: url('../../public/inventory1.png');
+    background-size: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-box {
+    border: 5px solid #ccc;
+    padding: 40px;
+    border-radius: 12px;
+    width: 500px; /* Increase width */
+    background-color: grey; 
+ }
+  
+  .login-box form input[type="username"],
+  .login-box form input[type="password"] {
+    width: 470px;
+    padding: 20px;
+    margin-bottom: 18px;
+    margin-left: -10px;
+    font-size: 16px; /* Increase font size */
+    border-radius: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 4px;
+  }
+  
+  .submit{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 140px;
+    background: skyblue;
+  }
